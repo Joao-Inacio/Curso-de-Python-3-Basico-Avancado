@@ -9,7 +9,7 @@ print('Hello')
 # Aspas duplas
 print("Hello")
 # Escape
-print("Hello \"World\"")
+print("Hello \"World\"") # Hello "World"
 # r
 print(r"Hello \"World\"")
 # Aspas simples dentro de aspas duplas
