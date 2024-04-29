@@ -51,6 +51,11 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# vscode
+.vscode
+teste.py
+teste.ipynb
+
 # Translations
 *.mo
 *.pot
