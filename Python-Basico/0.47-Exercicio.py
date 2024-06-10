@@ -53,6 +53,7 @@ while True:
     print(''.join(resposta))
 
     if '*' not in resposta:
-        print(f'Parabéns! Você adivinhou a palavra secreta "{palavra_secreta}" em {tentativas} tentativas.')
+        print(f'Parabéns! Você adivinhou a palavra secreta "{palavra_secreta}"')
+        print(f'Você usou {tentativas} tentativas para adivinhar a palavra.')
         break
 
