@@ -7,4 +7,5 @@ Métodos úteis: append, insert, pop, del, clear, extend, +
 """
 
 string = 'ABCDE'
-
+lista = [123, True, 'Luiz', 1.2]
+print(lista, type(lista))
