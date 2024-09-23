@@ -9,6 +9,8 @@
 # pop - Apaga um item com a chave especificada (del)
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
+from copy import deepcopy
+
 
 pessoa = {
     'nome': 'Luiz Otávio',
@@ -20,3 +22,17 @@ print(list(pessoa.values()))
 print(list(pessoa.items()))
 
 pessoa.setdefault('idade', 0)
+
+d1 = {
+    'c1': 1,
+    'c2': 2,
+    'l1': [0,1,2]
+}
+
+d2 = deepcopy(d1)
+
+d2['c1'] = 100
+d2['l1'][1] = 10
+
+print(d1)
+print(d2)
