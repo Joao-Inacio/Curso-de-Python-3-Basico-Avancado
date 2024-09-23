@@ -13,8 +13,8 @@ from copy import deepcopy
 
 
 pessoa = {
-    'nome': 'Luiz Otávio',
-    'sobrenome': 'Miranda',
+    'nome': 'João',
+    'sobrenome': 'Inácio',
 }
 print(len(pessoa))
 print(list(pessoa.keys()))
@@ -36,3 +36,12 @@ d2['l1'][1] = 10
 
 print(d1)
 print(d2)
+
+print(pessoa.get('nome'))
+
+nome = pessoa.pop('nome')
+print(nome)
+pessoa.update({
+    'nome': 'Igna',
+})
+
