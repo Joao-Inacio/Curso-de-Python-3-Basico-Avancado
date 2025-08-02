@@ -12,7 +12,7 @@ def soma(x, y, z=None):
         print(x, y, z, x + y + z)
     else:
         print(x + y)
-Valores padrão para parâmetros em funções Python + NoneType e None
+# Valores padrão para parâmetros em funções Python + NoneType e None
 
 
 soma(2, 3)  # 5
